@@ -17,7 +17,7 @@ Projeto de automação E2E com [Cypress](https://www.cypress.io/) para validaç�
 - Cadastro de novo usuário administrador
 - Login de usuário
 - Cadastro de produto (com validações e upload de imagem)
-- Consulta de lista de usuários
+
 
 ### ✅ API
 - Criação de usuário via API
