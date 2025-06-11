@@ -4,9 +4,9 @@ class LoginPage {
         cy.visit('/login')
     }
 
-    form() {
-        cy.get('[data-testid="email"]').type('eu_sou@qa.com')
-        cy.get('[data-testid="senha"]').type('pwd123')
+    form(initUser) {
+        cy.get('[data-testid="email"]').type(initUser.email)
+        cy.get('[data-testid="senha"]').type(initUser.senha)
         cy.get('[data-testid="entrar"]').click()
     }
 

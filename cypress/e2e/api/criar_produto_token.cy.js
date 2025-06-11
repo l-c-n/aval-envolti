@@ -6,8 +6,8 @@ describe('API - Cadastrar produto', () => {
       method: 'POST',
       url: 'https://serverest.dev/login',
       body: {
-        email: "admin@qa.com",
-        password: "admin123"
+        email: "aval_envilti@qa.com",
+        password: "pwd123"
       }
     }).then((res) => {
       token = res.body.authorization;

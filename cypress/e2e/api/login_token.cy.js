@@ -4,8 +4,8 @@ describe('API - Login', () => {
       method: 'POST',
       url: 'https://serverest.dev/login',
       body: {
-        email: "fulano@qa.com",
-        password: "teste"
+        email: "aval_envilti@qa.com",
+        password: "pwd123"
       }
     }).then((res) => {
       expect(res.status).to.eq(200);
